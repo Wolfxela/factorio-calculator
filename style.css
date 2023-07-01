@@ -1,0 +1,105 @@
+body
+{
+    background-color:saddlebrown;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.cardForm
+{
+    padding: 10px;
+    border-radius: 10px;
+    width: 90vw;
+    height: 90vh;
+    display: flex;
+    flex-direction: row;
+    background-color: grey;
+}
+.resourcess
+{
+    flex-grow: 10;
+    padding: 10px;
+    border: 5px;
+    border-style: solid;
+    display: flex;
+    flex-direction: column;
+
+}
+.buttons
+{
+    padding: 10px;
+    flex-grow: 1;
+    border: 5px;
+    border-style: solid;
+
+}
+.resourceCost, .resourceGain
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.resourceCostBody, .resourceGainBody
+{
+    padding: 10px;
+    margin-bottom: 5px;
+    display: flex;
+    flex-grow: 1;
+    row-gap: 10px;
+    column-gap: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.resourceGainBox, .resourceCostBox
+{
+    min-height: 8vh;
+    max-height: 10vh;
+    max-width: 10vw;
+    min-width: 8vw;
+}
+input
+{
+    width: 10vw;
+    height: 6vh;
+    align-content: center;
+    text-align: center; 
+    font-size: 30px;
+
+}
+
+button
+{
+    width: 30vw;
+    height: 4vh;
+}
+.deleteCostResourceBox, .deleteGainResourceBox
+{
+    background-color: red;
+    width: 15vw;
+    height: 7vh;
+}
+.addCostResourceBox, .addGainResourceBox
+{
+    background-color: green;
+    width: 15vw;
+    height: 7vh;
+}
+.infoInputs
+{
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 10px;
+}
+.buttons
+{
+    display: flex;
+    flex-direction: column;
+    row-gap: 12vh;
+}
+::placeholder {
+    text-align: center; 
+    font-size: 30px;
+ }
