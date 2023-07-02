@@ -36,6 +36,10 @@ body
     border-style: solid;
 
 }
+#resourceCostOutput, #resourceGainOutput
+{
+    background-color: rgba(0, 211, 0, 0.336);
+}
 .resourceCost, .resourceGain
 {
     display: flex;
